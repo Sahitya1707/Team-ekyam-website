@@ -4,6 +4,7 @@
   font-family: "Dongle", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
+
 .header nav {
   background-color: #a42455;
 }
@@ -12,13 +13,15 @@
   height: 5rem;
 }
 .background {
-  min-height: 100vh;
+  height: 105vh;
   width: 100%;
-  background-image: url(../images/background.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
+  text-align: center;
 }
 nav {
   display: flex;
@@ -119,4 +122,118 @@ nav .fas {
   .othNavs ul .an1:hover::after {
     width: 0;
   }
+}
+.textBox {
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  left: 5%;
+  bottom: 0;
+  color: white;
+}
+.textBox p {
+  font-size: 30px;
+}
+.textBox h1 {
+  font-size: 40px;
+}
+.btnLearn {
+  text-decoration: none;
+  border: 2px solid white;
+  color: #a42455;
+  background: white;
+  padding: 0.6rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+.btnLearn:hover {
+  border: 2px solid #a42455;
+  color: white;
+  background: #a42455;
+  transition: 0.7s;
+}
+.buttom {
+  margin: 7px;
+}
+
+.about,
+.ourTeams {
+  text-align: center;
+}
+.text {
+  margin: 1rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+span {
+  border-right: 0.4rem solid #a42455;
+  padding-right: 0.7rem;
+}
+.ourStory .text h2 {
+  text-align: right;
+  margin-bottom: rem;
+}
+.bold {
+  font-weight: bold;
+}
+.pt1 {
+  display: flex;
+}
+.ourStory .text img {
+  width: 17rem;
+  height: 14rem;
+  margin-left: 1rem;
+}
+.ourMission .text img {
+  width: 17rem;
+  height: 14rem;
+  margin-right: 1rem;
+}
+.paragraph .bold {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1rem;
+}
+.cards {
+  display: flex;
+  margin: 1.5rem;
+
+  flex-basis: 33%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards .cardItems {
+  width: 15rem;
+  height: 20rem;
+  text-align: center;
+  border: 2px solid rgb(56, 46, 46);
+  border-radius: 30px;
+  background-color: rgba(219, 203, 203, 0.397);
+  margin: 0.7rem;
+}
+.cards .cardItems img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 0.7rem;
+}
+.cards .cardItems .textCard {
+  margin: 0.5rem;
+}
+.cards .cardItems i {
+  margin: 0.5rem;
+  color: #a42455;
+  font-weight: bold;
+}
+.cards .cardItems .icons {
+  margin-top: 1rem;
 }
