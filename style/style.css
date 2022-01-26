@@ -4,7 +4,9 @@
   font-family: "Dongle", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
-
+section {
+  margin-bottom: 1rem;
+}
 .header nav {
   background-color: #a42455;
 }
@@ -125,7 +127,7 @@ nav .fas {
 }
 .textBox {
   position: absolute;
-  top: 30%;
+  top: 28%;
   width: 90%;
   left: 5%;
   bottom: 0;
@@ -142,22 +144,22 @@ nav .fas {
   border: 2px solid white;
   color: #a42455;
   background: white;
-  padding: 0.6rem 2rem;
+  padding: 0.4rem 0.9rem;
   border-radius: 0.8rem;
   cursor: pointer;
   text-align: center;
   display: inline-block;
-  font-weight: bold;
 }
 .btnLearn:hover {
   border: 2px solid #a42455;
   color: white;
   background: #a42455;
   transition: 0.7s;
+  /* font-weight: 100px; */
 }
-.buttom {
+/* .buttom {
   margin: 7px;
-}
+} */
 
 .about,
 .ourTeams {
@@ -236,4 +238,33 @@ p {
 }
 .cards .cardItems .icons {
   margin-top: 1rem;
+}
+.down-pt {
+  background-image: url(../images/down.jpg);
+  height: 200px;
+  width: 100%;
+}
+.down-pt .text-here {
+  text-align: center;
+}
+.down-pt .text-here h4 {
+  font-size: 2rem;
+  color: white;
+}
+.down-pt .text-here p {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.down-pt .text-here a {
+  margin: 0.4rem 1.5rem 1rem 1.5rem;
+}
+.gallery .galleryImg {
+  text-align: center;
+}
+.gallery .galleryImg .sizeImg {
+  width: 300px;
+  height: 200px;
+  margin: 0.5rem;
+  display: inline-flex;
+  flex-basis: 33%;
 }
